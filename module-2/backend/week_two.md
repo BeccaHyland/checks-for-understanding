@@ -8,7 +8,7 @@ Note: When you're done, submit a PR.
 ### Week 2 Questions
 
 1. At a high level, what is ActiveRecord? What does it do/allow you to do?
-*AR is an Object Relational Mapper which simplifies SQL queries and integrates with Ruby on Rails.
+* AR is an Object Relational Mapper which simplifies SQL queries and integrates with Ruby on Rails.
 2. Assume you have the following model:
 
 ```ruby
@@ -17,11 +17,11 @@ end
 ```
 
 What are some methods you can call on `Team`? If these methods aren't defined in the class, how do you have access to them?
-You can call ActiveRecords on Taeam such as #all and #find.
+* You can call ActiveRecords on Team such as #all and #find.
 
 3. Assume that in your database, a team has the following attributes: "id", "name", owner_id". How would you find the name of a team with an id of 4? Assuming your class only included the code from question 2, how could you find the owner of the same team?
-*Team.find(4)
-*Team.select(:owner).where(id: 4)
+* Team.find(4)
+* Team.select(:owner).where(id: 4)
 
 4. Assume that you added a line to your `Team` class as follows:
 
@@ -32,7 +32,7 @@ end
 ```
 
 Now how would you find the owner of the team with an id of 4?
-*Owner.where(team_id: 4)
+* Owner.where(team_id: 4)
 
 5. In a database that's holding students and teachers, what will be the relationship between students and teachers? Draw the schema diagram.
 * A teacher has many students.
