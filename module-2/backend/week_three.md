@@ -54,15 +54,19 @@ Note: When you're done, submit a PR with a reflection in the comments about how 
   `within(.personal-info) do
     expect(page).to have_content("#{@person.name}")
    end`
+   
 15. How would you call the method `prance` from within the method `move` on a `Horse` instance?
 `@horse.move.prance` I am not sure, this question is unclear to me.
+
 16. Given the following hash:
 ```ruby
 furniture = {table: {height: 3, color: "red"}, purchased: true}
 ```
-What is the different between how you would return true vs returning 3?  
+
+17. What is the different between how you would return true vs returning 3?  
 * You need to call one key to return true and chain two keys to return 3.
-17. What is inheritance?
+
+18. What is inheritance?
 * Inheritance is how a model can use the methods of another model.
 
 ### Self Assessment:
