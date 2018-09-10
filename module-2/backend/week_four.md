@@ -49,7 +49,7 @@ set the array equal to a variable such as `days`
 day[:holiday][:name]
 end
 * names.sort
-* .sort
+
 14. How would you clean incoming data to ensure "$300" or "300.00" is stored as 300?
 * for $300 you can use #gsub(/\D/, '')
 * not sure about 300.00
